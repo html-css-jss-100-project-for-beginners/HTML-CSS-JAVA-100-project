@@ -1,0 +1,40 @@
+body {
+height: 100vh;
+background-color: crimson;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+
+}
+
+.main {
+    padding: 5px 0;
+    text-align: center;
+
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 40px;
+    
+}
+.inputs input {
+    border-color: black;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+
+}
+
+.submit {
+    border-color: #fff;
+    width: 80px;
+    height: 40px;
+}
+.selectOp {
+    width: 40px;
+    height: 40px;
+}
